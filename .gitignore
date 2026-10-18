@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.editorconfig
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.yarn/
+.pnpm-store/
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Test artifacts
+coverage/
+.nyc_output/
+*.coverage
+
+# Local test scaffolding
+/tmp/
+__pycache__/
+*.pyc
+
+# Local server stuff
+server.log
+httpd.log
